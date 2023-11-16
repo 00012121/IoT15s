@@ -18,12 +18,12 @@ const firebaseConfig = {
   //fetch the data
       dataRef1.on('value', function(getdata1){
         var humi = getdata1.val();
-        document.getElementById('humidity').innerHTML = humi + "%";
+        document.getElementById('hum').innerHTML = humi + "%";
       })
 
        dataRef2.on('value', function(getdata2){
         var temp = getdata2.val();
-        document.getElementById('temperature').innerHTML = temp + "&#8451;";
+        document.getElementById('temp').innerHTML = temp + "&#8451;";
       })
 
     var index=0;
@@ -40,3 +40,4 @@ database.ref('LED').set("0");
 document.getElementById('led').innerHTML="turn on";
 }
 }
+

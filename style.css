@@ -1,0 +1,31 @@
+<svg viewBox="0 0 145 145">
+    <rect x="30" y="25" width="30" height="100" fill="#edebeb"></rect>
+    <rect x="30" y="55" width="30" height="70" fill="#1565c0"></rect>
+    <text x="70" y="80" text-anchor="start" style="font-weight: 700;font-size: 1.3em;">27 °C</text>
+    <text x="70" y="125" fill="#b3b3b3">-20</text>
+    <text x="70" y="30" text-anchor="start" fill="#b3b3b3">60</text>
+
+</svg>
+
+.vGauge {
+  width: 145px;
+  height: 145px;
+}
+
+.vGauge-base {
+  fill: #edebeb;
+}
+
+.vGauge-progress {
+
+}
+
+.vGauge-val {
+  font-weight: 700;
+  font-size: 1.3em;
+}
+
+.vGauge-min-val, .vGauge-max-val {
+  fill: #b3b3b3;
+}
+
